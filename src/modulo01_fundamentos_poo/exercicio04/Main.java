@@ -15,6 +15,7 @@ public class Main {
         double quantity = sc.nextDouble();
         System.out.println("Amount to be paid in reais: R$ "
                 + String.format("%.2f", CurrencyConverter.converter(dollarPrice, quantity)));
+        
+        sc.close();
     }
-
 }
