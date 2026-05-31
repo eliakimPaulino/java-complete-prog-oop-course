@@ -13,4 +13,4 @@
     - o membro é acessado por todas as classes (ao menos que ele resida em um móduglo diferente
     que não exporte o pacote onde ele está)
 
-![modificadores de acesso java](assets/access_mod.png)
+![modificadores de acesso java](/assets/access_mod.png)
