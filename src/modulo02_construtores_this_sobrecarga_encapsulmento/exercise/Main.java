@@ -6,59 +6,42 @@ import modulo02_construtores_this_sobrecarga_encapsulmento.exercise.entitie.Acco
 
 public class Main {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter account number: ");
-        int accountNumber = sc.nextInt();
-        System.out.print("Enter account user Name: ");
-        String userName = sc.next();
-        System.out.print("Is there an initial deposit (y/n)? ");
-        char response = sc.next().charAt(0);
+                System.out.print("Enter account number: ");
+                int accountNumber = sc.nextInt();
+                System.out.print("Enter account user Name: ");
+                String userName = sc.next();
 
-        if (response == 'y' || response == 'Y') {
-            System.out.print("Enter initial deposit value: $ ");
-            double initialDeposit = sc.nextDouble();
-            Account acc = new Account(accountNumber, userName, initialDeposit);
-            System.out.println("Account data:");
-            System.out.println("Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName() + ", Balance: $ "
-                    + String.format("%.2f", acc.getBalance()));
+                Account acc = new Account(accountNumber, userName);
 
-            System.out.print("Enter a deposit value: $ ");
-            double depositValue = sc.nextDouble();
-            acc.deposit(depositValue);
-            System.out.println("Updated account data:");
-            System.out.println("Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName() + ", Balance: $ "
-                    + String.format("%.2f", acc.getBalance()));
+                System.out.print("Is there an initial deposit (y/n)? ");
+                char response = sc.next().charAt(0);
 
-            System.out.print("Enter a withdraw value: $ ");
-            double withdrawValue = sc.nextDouble();
-            acc.withdraw(withdrawValue);
-            System.out.println("Updated account data:");
-            System.out.println("Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName() + ", Balance: $ "
-                    + String.format("%.2f", acc.getBalance()));
-        } else {
-            Account acc = new Account(accountNumber, userName);
-            System.out.println("Account data:");
-            System.out.println("Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName() + ", Balance: $ "
-                    + String.format("%.2f", acc.getBalance()));
+                if (response == 'y' || response == 'Y') {
+                        System.out.print("Enter initial deposit value: $ ");
+                        double initialDeposit = sc.nextDouble();
+                        acc.deposit(initialDeposit);
+                        System.out.println("Account data:");
+                        System.out.println("Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName()
+                                        + ", Balance: $ "
+                                        + String.format("%.2f", acc.getBalance()));
+                }
 
-            System.out.print("Enter a deposit value: $ ");
-            double depositValue = sc.nextDouble();
-            acc.deposit(depositValue);
-            System.out.println("Updated account data:");
-            System.out.println("Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName() + ", Balance: $ "
-                    + String.format("%.2f", acc.getBalance()));
+                System.out.println("Updated account data:");
+                System.out.println("Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName() + ", Balance: $ "
+                                                + String.format("%.2f", acc.getBalance()));
 
-            System.out.print("Enter a withdraw value: $ ");
-            double withdrawValue = sc.nextDouble();
-            acc.withdraw(withdrawValue);
-            System.out.println("Updated account data:");
-            System.out.println("Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName() + ", Balance: $ "
-                    + String.format("%.2f", acc.getBalance()));
+                System.out.print("Enter a withdraw value: $ ");
+                double withdrawValue = sc.nextDouble();
+                acc.withdraw(withdrawValue);
+                System.out.println("Updated account data:");
+                System.out.println(
+                                "Account " + acc.getAccountNumber() + ", Holder: " + acc.getUserName() + ", Balance: $ "
+                                                + String.format("%.2f", acc.getBalance()));
+
+                sc.close();
         }
-
-        sc.close();
-    }
 
 }
