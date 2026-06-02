@@ -27,7 +27,7 @@ public class Main {
 
             Product[] vect = new Product[n];
 
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < vect.lenght; i++) {
                 System.out.println("Insira o nome do produto " + i);
                 sc.nextLine(); // cosumir a quebra de linha
                 String name = sc.nextLine();
@@ -37,13 +37,13 @@ public class Main {
             }
 
             System.out.println("Produtos inseridos: ");
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < vect.lenght; i++) {
                 System.out.println(vect[i]);
             }
 
             double sum = 0.0;
 
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < vect.lenght; i++) {
                 sum += vect[i].getPrice();
             }
 
