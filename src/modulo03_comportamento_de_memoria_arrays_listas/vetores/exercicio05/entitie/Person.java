@@ -1,4 +1,4 @@
-package modulo03_comportamento_de_memoria_arrays_listas.exercicio05.entitie;
+package modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio05.entitie;
 
 public class Person {
     private String name;

@@ -1,4 +1,4 @@
-package modulo03_comportamento_de_memoria_arrays_listas.exercicio08;
+package modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio08;
 
 import java.util.Scanner;
 

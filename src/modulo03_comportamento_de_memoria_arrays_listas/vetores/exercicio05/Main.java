@@ -1,8 +1,8 @@
-package modulo03_comportamento_de_memoria_arrays_listas.exercicio05;
+package modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio05;
 
 import java.util.Scanner;
 
-import modulo03_comportamento_de_memoria_arrays_listas.exercicio05.entitie.Person;
+import modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio05.entitie.Person;
 
 public class Main {
 

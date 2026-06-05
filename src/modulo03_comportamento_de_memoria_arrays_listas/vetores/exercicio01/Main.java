@@ -1,4 +1,4 @@
-package modulo03_comportamento_de_memoria_arrays_listas.exercicio01;
+package modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio01;
 
 import java.util.Locale;
 import java.util.Scanner;

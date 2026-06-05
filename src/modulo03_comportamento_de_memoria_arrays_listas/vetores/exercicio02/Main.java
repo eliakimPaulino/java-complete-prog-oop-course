@@ -1,9 +1,9 @@
-package modulo03_comportamento_de_memoria_arrays_listas.exercicio02;
+package modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio02;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import modulo03_comportamento_de_memoria_arrays_listas.exercicio02.entitie.Product;
+import modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio02.entitie.Product;
 
 /*
 

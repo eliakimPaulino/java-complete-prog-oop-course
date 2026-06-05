@@ -1,4 +1,4 @@
-package modulo03_comportamento_de_memoria_arrays_listas.exercicio02.entitie;
+package modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio02.entitie;
 
 public class Product {
     private String name;

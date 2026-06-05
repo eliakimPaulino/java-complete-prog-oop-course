@@ -1,4 +1,4 @@
-package modulo03_comportamento_de_memoria_arrays_listas.exercicio09.entitie;
+package modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio09.entitie;
 
 public class Student {
     private String name;

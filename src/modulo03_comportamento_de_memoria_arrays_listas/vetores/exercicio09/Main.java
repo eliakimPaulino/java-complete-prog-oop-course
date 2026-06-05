@@ -1,8 +1,8 @@
-package modulo03_comportamento_de_memoria_arrays_listas.exercicio09;
+package modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio09;
 
 import java.util.Scanner;
 
-import modulo03_comportamento_de_memoria_arrays_listas.exercicio09.entitie.Student;
+import modulo03_comportamento_de_memoria_arrays_listas.vetores.exercicio09.entitie.Student;
 
 /*
 A dona de um pensionato possui dez quarto para alugar para estudantes, sendo esses quartos 
@@ -66,10 +66,10 @@ public class Main {
                 continue; // Pular quartos vazios
             }
             System.out.println(
-                    "Room " 
-                    + rooms[i].getRoomNumber() 
-                    + ": " + rooms[i].getName() 
-                    + ", " + rooms[i].getEmail());
+                    "Room "
+                            + rooms[i].getRoomNumber()
+                            + ": " + rooms[i].getName()
+                            + ", " + rooms[i].getEmail());
         }
 
         sc.close();
