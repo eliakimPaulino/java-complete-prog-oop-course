@@ -1,6 +1,8 @@
 # Java Completo: Programação Orientada a Objetos + Projetos
 
 Este repositório contém uma coleção de projetos e exercícios práticos decorrentes do curso "Java COMPLETO Programação Orientada a Objetos + Projetos" oferecido na Udemy. O curso aborda conceitos fundamentais da programação orientada a objetos, além de fornecer projetos práticos que ajudam a consolidar o aprendizado.
+Um agradecimento especial ao professo Nelio Alves por compartilhar seu conhecimento de forma tão sólida e 
+rica. (https://github.com/acenelio)
 
 ## Objetivos do Repositório
 
