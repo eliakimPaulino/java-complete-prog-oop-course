@@ -17,6 +17,14 @@ Grande parte dos frameworks Java utiliza listas internamente.
 
 ---
 
+### Lista é uma estrutura de dados
+- Homogênea: dados são do mesmo tipo
+- Ordenada: elementos são acessados através das posições
+- Inicio vazio: seus elementos são alocados sob demanda
+- Cada elemento ocupa um 'nó'(ou nodo) da lista.
+
+---
+
 # Arrays vs Listas
 
 Antes de aprender listas, é importante entender a diferença para arrays.
